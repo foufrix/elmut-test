@@ -18,9 +18,6 @@ export default function Profile() {
             <Space direction="vertical" size={6}>
               <Typography.Text>you're signed in</Typography.Text>
               <Typography.Text strong>Email: {user.email}</Typography.Text>
-              <Typography.Text>
-                <pre>{JSON.stringify(user, null, 2)}</pre>
-              </Typography.Text>
             </Space>
           </Card>
         </div>
